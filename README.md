@@ -75,9 +75,7 @@ variable:          is the name of our state.<br/>
 SetVariable:    the function we use to update our state.<br/>
 UseState:        the initial state of our state.<br/>
 ### UseEffect:<br/>
-```
 `UseEffect( ()=>{   } )` when we want something to happen right after page loads.
-```
 ### Lists & .map(key):<br/>
 ```
 const numbers = [1, 2, 3, 4, 5];
