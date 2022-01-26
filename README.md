@@ -1,6 +1,6 @@
 # taskTracker
-Hi,:wave: this is my **first React project**, I chose to build a task tracker to learn all the basics and get a good understanding how Reactjs framework works.
-
+Hi,:wave: this is my **first React project**, I chose to build a task tracker to learn all the basics and get a good understanding how Reactjs framework works.<br>
+**Note: Go to [the Build-code branch](https://github.com/Reda-codes/taskTracker/tree/Build-Code) to get the production code for this project and how to deploy it on your machine.**
 ## During this project had the chance to learn all the following about React<br/>
 
 Set up my first react development envierment<br/>
