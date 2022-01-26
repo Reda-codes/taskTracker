@@ -1,94 +1,70 @@
-# taskTracker
-Hi,:wave: this is my **first React project**, I chose to build a task tracker to learn all the basics and get a good understanding how Reactjs framework works.
+# Getting Started with Create React App
 
-## During this project had the chance to learn all the following about React<br/>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Set up my first react development envierment<br/>
-by running the following command:<br/>
-`npx crear-react-app my-app`
-<br/>
-<br/>
-### How to creat a class Component:<br/>
-```
-export default class Header extends React.Component{
-constructor(props) {
-    super(props);
-    this.state = {}
-}
-    render()  {
-        return (
-            <div>
-	<h1> My Header </h1>
-            </div>
-        )
+## Available Scripts
 
-   }
-}
-```
-### How to creat a function Component:<br/>
-```
-export const Header = () => {
+In the project directory, you can run:
 
-      const name = ‘reda’
+### `npm start`
 
-      return (
-            <div>
-	<h1> Hi {name} </h1>
-            </div>
-}
-```
-### Calling a component:<br/>
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Import Header from ‘./Header’;
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
- and use:  <Header />
-```
-### Passing props to components:<br/>
-```
-< Component name=’reda’ />
-```
-### setting a propsType:<br/>
-```
-Component.propTypes = {
-name: PropTypes.string
-}
-{string, number, bool, func, array, object...}
-```
-### Events:<br/>
-```
-<Button onClick={buttonClicked} />
-<input  type="text"  onChange={e => console.log(e.target.value)} />
-```
-### useState Hook:<br/>
-The React useState Hook allows us to track state in a function component.<br/> 
-1 – Import the hook:
-```
-import { useState } from "react";
-```
-2 - Initialize useState:
-```
-const [variabl, setVariable] = useState([one, two, three]);
-```
+### `npm test`
 
-variable:          is the name of our state.<br/>
-SetVariable:    the function we use to update our state.<br/>
-UseState:        the initial state of our state.<br/>
-### UseEffect:<br/>
-`UseEffect( ()=>{   } )` when we want something to happen right after page loads.
-### Lists & .map(key):<br/>
-```
-const numbers = [1, 2, 3, 4, 5];
-const listItems = numbers.map((number) => <li>{number}</li>);
-```
-```
-const users = [{name:’reda’, age:25},{name:’john’, age:28}];
-const usersAge = users.map((key) => <p>{key.age}</p>);
-```
-### React-icons:<br/>
-1 - install react icons: `npm I react-icons`<br/>
-2 - import to file: `import {FaTimes} from 'react-icons/fa'`<br/>
-3 – use the icons in code: `<FaTimes />`<br/>
-### React Build Version:<br/>
-After finishig the app we can create a statc version.<br/>
-`npm run build` (Creat new folder named build with all files)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

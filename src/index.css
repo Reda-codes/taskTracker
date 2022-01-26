@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/merchant-copy-doublesize');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 450px;
+}
+
+.addBox{
+    margin: auto;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f1f1;
+    box-shadow: 
+    -1px 1px 0 rgb(160 160 160 / 10%),
+    1px -1px 0 rgb(255 255 255 / 10%),
+    1px -1px 25px white, -1px 1.9px 1px #a0a0a0,
+    -2px 3.8px 2px #a0a0a0,
+    -3px 5.7px 3px rgb(160 160 160 / 67%),
+    -4px 7.6px 4px rgb(160 160 160 / 50%),
+    -5px 9.5px 5px rgb(160 160 160 / 40%),
+    -6px 11.4px 6px rgb(160 160 160 / 33%),
+    -7px 13.3px 7px rgb(160 160 160 / 29%),
+    -8px 15.2px 8px rgb(160 160 160 / 25%),
+    -9px 17.1px 9px rgb(160 160 160 / 22%),
+    -10px 19px 10px rgb(160 160 160 / 20%),
+    -11px 20.9px 11px rgb(160 160 160 / 18%),
+    -12px 22.8px 12px rgb(160 160 160 / 17%),
+    -13px 24.7px 13px rgb(160 160 160 / 15%),
+    -14px 26.6px 14px rgb(160 160 160 / 14%),
+    -15px 28.5px 15px rgb(160 160 160 / 13%),
+    -16px 30.4px 16px rgb(160 160 160 / 13%),
+    -17px 32.3px 17px rgb(160 160 160 / 12%),
+    -18px 34.2px 18px rgb(160 160 160 / 11%),
+    -19px 36.1px 19px rgb(160 160 160 / 11%),
+    -20px 38px 20px rgb(160 160 160 / 10%),
+    -21px 39.9px 21px rgb(160 160 160 / 10%),
+    -22px 41.8px 22px rgb(160 160 160 / 9%),
+    -23px 43.7px 23px rgb(160 160 160 / 9%),
+    -24px 45.6px 24px rgb(160 160 160 / 8%),
+    -25px 47.5px 25px rgb(160 160 160 / 8%);
+}
+
+.addToggle {
+    margin: auto;
+}
+
+.addToggle:hover {
+    color: green;
+}
+
+.formBox {
+    border-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    min-width: 300px;
+    display: none;
+    background-color: #f5f1f1;
+    box-shadow: 
+    -1px 1px 0 rgb(160 160 160 / 10%),
+    1px -1px 0 rgb(255 255 255 / 10%),
+    1px -1px 25px white, -1px 1.9px 1px #a0a0a0,
+    -2px 3.8px 2px #a0a0a0,
+    -3px 5.7px 3px rgb(160 160 160 / 67%),
+    -4px 7.6px 4px rgb(160 160 160 / 50%),
+    -5px 9.5px 5px rgb(160 160 160 / 40%),
+    -6px 11.4px 6px rgb(160 160 160 / 33%),
+    -7px 13.3px 7px rgb(160 160 160 / 29%),
+    -8px 15.2px 8px rgb(160 160 160 / 25%),
+    -9px 17.1px 9px rgb(160 160 160 / 22%),
+    -10px 19px 10px rgb(160 160 160 / 20%),
+    -11px 20.9px 11px rgb(160 160 160 / 18%),
+    -12px 22.8px 12px rgb(160 160 160 / 17%),
+    -13px 24.7px 13px rgb(160 160 160 / 15%),
+    -14px 26.6px 14px rgb(160 160 160 / 14%),
+    -15px 28.5px 15px rgb(160 160 160 / 13%),
+    -16px 30.4px 16px rgb(160 160 160 / 13%),
+    -17px 32.3px 17px rgb(160 160 160 / 12%),
+    -18px 34.2px 18px rgb(160 160 160 / 11%),
+    -19px 36.1px 19px rgb(160 160 160 / 11%),
+    -20px 38px 20px rgb(160 160 160 / 10%),
+    -21px 39.9px 21px rgb(160 160 160 / 10%),
+    -22px 41.8px 22px rgb(160 160 160 / 9%),
+    -23px 43.7px 23px rgb(160 160 160 / 9%),
+    -24px 45.6px 24px rgb(160 160 160 / 8%),
+    -25px 47.5px 25px rgb(160 160 160 / 8%);
+}
+
+.headerCon {
+    min-width: 300px;
+}
+
+.cenTitle {
+    text-align: center;
+    font-family: 'Merchant Copy Doublesize', sans-serif
+}
+.headerList {
+    font-family: 'Merchant Copy Doublesize', sans-serif;
+    /* position: fixed;
+    top: 1em;
+    left: 1em; */
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    padding-inline-start: 0px;
+}
+
+.liItem {
+    font-family: 'Merchant Copy Doublesize', sans-serif;
+    text-decoration: none;
+}
+
+.liItem:visited {
+    color: black;
+}
+
+.liItem:hover{
+    font-weight: bold;
+}
+
+.taskH3{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+.btnDiv {
+    width: 100%;
+    display: flex;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 30%;
+    background-color: rgb(235, 112, 112);
+    border-radius: 1em;
+    color: cornsilk;
+    font-weight: bold;
+    border: none;
+}
+
+.greenBorder {
+    user-select: none;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    min-width: 300px;
+    background-color: #f5f1f1;
+    box-shadow: 
+    -1px 1px 0 rgb(160 160 160 / 10%),
+    1px -1px 0 rgb(255 255 255 / 10%),
+    1px -1px 25px white, -1px 1.9px 1px #a0a0a0,
+    -2px 3.8px 2px #a0a0a0,
+    -3px 5.7px 3px rgb(160 160 160 / 67%),
+    -4px 7.6px 4px rgb(160 160 160 / 50%),
+    -5px 9.5px 5px rgb(160 160 160 / 40%),
+    -6px 11.4px 6px rgb(160 160 160 / 33%),
+    -7px 13.3px 7px rgb(160 160 160 / 29%),
+    -8px 15.2px 8px rgb(160 160 160 / 25%),
+    -9px 17.1px 9px rgb(160 160 160 / 22%),
+    -10px 19px 10px rgb(160 160 160 / 20%),
+    -11px 20.9px 11px rgb(160 160 160 / 18%),
+    -12px 22.8px 12px rgb(160 160 160 / 17%),
+    -13px 24.7px 13px rgb(160 160 160 / 15%),
+    -14px 26.6px 14px rgb(160 160 160 / 14%),
+    -15px 28.5px 15px rgb(160 160 160 / 13%),
+    -16px 30.4px 16px rgb(160 160 160 / 13%),
+    -17px 32.3px 17px rgb(160 160 160 / 12%),
+    -18px 34.2px 18px rgb(160 160 160 / 11%),
+    -19px 36.1px 19px rgb(160 160 160 / 11%),
+    -20px 38px 20px rgb(160 160 160 / 10%),
+    -21px 39.9px 21px rgb(160 160 160 / 10%),
+    -22px 41.8px 22px rgb(160 160 160 / 9%),
+    -23px 43.7px 23px rgb(160 160 160 / 9%),
+    -24px 45.6px 24px rgb(160 160 160 / 8%),
+    -25px 47.5px 25px rgb(160 160 160 / 8%);
+}
+
+.redBorder {
+    user-select: none;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    min-width: 300px;
+    background-color: #f5f1f1;
+    box-shadow: 
+    -1px 1px 0 rgb(160 160 160 / 10%),
+    1px -1px 0 rgb(255 255 255 / 10%),
+    1px -1px 25px white, -1px 1.9px 1px #a0a0a0,
+    -2px 3.8px 2px #a0a0a0,
+    -3px 5.7px 3px rgb(160 160 160 / 67%),
+    -4px 7.6px 4px rgb(160 160 160 / 50%),
+    -5px 9.5px 5px rgb(160 160 160 / 40%),
+    -6px 11.4px 6px rgb(160 160 160 / 33%),
+    -7px 13.3px 7px rgb(160 160 160 / 29%),
+    -8px 15.2px 8px rgb(160 160 160 / 25%),
+    -9px 17.1px 9px rgb(160 160 160 / 22%),
+    -10px 19px 10px rgb(160 160 160 / 20%),
+    -11px 20.9px 11px rgb(160 160 160 / 18%),
+    -12px 22.8px 12px rgb(160 160 160 / 17%),
+    -13px 24.7px 13px rgb(160 160 160 / 15%),
+    -14px 26.6px 14px rgb(160 160 160 / 14%),
+    -15px 28.5px 15px rgb(160 160 160 / 13%),
+    -16px 30.4px 16px rgb(160 160 160 / 13%),
+    -17px 32.3px 17px rgb(160 160 160 / 12%),
+    -18px 34.2px 18px rgb(160 160 160 / 11%),
+    -19px 36.1px 19px rgb(160 160 160 / 11%),
+    -20px 38px 20px rgb(160 160 160 / 10%),
+    -21px 39.9px 21px rgb(160 160 160 / 10%),
+    -22px 41.8px 22px rgb(160 160 160 / 9%),
+    -23px 43.7px 23px rgb(160 160 160 / 9%),
+    -24px 45.6px 24px rgb(160 160 160 / 8%),
+    -25px 47.5px 25px rgb(160 160 160 / 8%);
+}
+
+.titleClose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutBox {
+    border-radius: 1em;
+    margin-bottom: 3em;
+    padding: 1em;
+    min-width: 300px;
+    display: block;
+    background-color: #f5f1f1;
+    box-shadow: 
+    -1px 1px 0 rgb(160 160 160 / 10%),
+    1px -1px 0 rgb(255 255 255 / 10%),
+    1px -1px 25px white, -1px 1.9px 1px #a0a0a0,
+    -2px 3.8px 2px #a0a0a0,
+    -3px 5.7px 3px rgb(160 160 160 / 67%),
+    -4px 7.6px 4px rgb(160 160 160 / 50%),
+    -5px 9.5px 5px rgb(160 160 160 / 40%),
+    -6px 11.4px 6px rgb(160 160 160 / 33%),
+    -7px 13.3px 7px rgb(160 160 160 / 29%),
+    -8px 15.2px 8px rgb(160 160 160 / 25%),
+    -9px 17.1px 9px rgb(160 160 160 / 22%),
+    -10px 19px 10px rgb(160 160 160 / 20%),
+    -11px 20.9px 11px rgb(160 160 160 / 18%),
+    -12px 22.8px 12px rgb(160 160 160 / 17%),
+    -13px 24.7px 13px rgb(160 160 160 / 15%),
+    -14px 26.6px 14px rgb(160 160 160 / 14%),
+    -15px 28.5px 15px rgb(160 160 160 / 13%),
+    -16px 30.4px 16px rgb(160 160 160 / 13%),
+    -17px 32.3px 17px rgb(160 160 160 / 12%),
+    -18px 34.2px 18px rgb(160 160 160 / 11%),
+    -19px 36.1px 19px rgb(160 160 160 / 11%),
+    -20px 38px 20px rgb(160 160 160 / 10%),
+    -21px 39.9px 21px rgb(160 160 160 / 10%),
+    -22px 41.8px 22px rgb(160 160 160 / 9%),
+    -23px 43.7px 23px rgb(160 160 160 / 9%),
+    -24px 45.6px 24px rgb(160 160 160 / 8%),
+    -25px 47.5px 25px rgb(160 160 160 / 8%);
+}
